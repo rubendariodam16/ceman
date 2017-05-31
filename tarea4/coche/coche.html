@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>Compra de un Coche</title>
+  <link rel="stylesheet" type="text/css" href="coche.css"/>
+  <script type="text/javascript" src="coche.js"></script>
+ </head>
+ <body>
+  <h1>COMPRA  DE UN COCHE</h1>
+  <br>
+  <form>
+   <table>
+    <tr>
+     <td>Precio inicial</td>
+     <td>12000 €</td>
+    </tr>
+    
+    <tr>
+     <td>Motor</td>
+     <td>
+      <select id="motores" onfocus="motorGuardado"() onchange="cambiarMotor()">
+       <option value="0" selected>Gasolina</option>
+       <option value="1" selected>Diesel (+1500 €)</option>
+       <option value="2" selected>Hibrido (+3000 €)</option>
+    </select>
+     </td>
+   </tr>
+    
+    <tr>
+     <td>Modelo</td>
+     <td>
+      <input="radio" name="modelos" value="0" id="modelo_3 " onclick="cambiarModelo()">3 puertas-solo para gasolina(-2000 €)<br>
+     <input="radio" name="modelos" value="1" id="modelo_5" onclick="cambiarModelo()" selected>5 puertas<br>
+      <input="radio" name="modelos" value="2" id="modelo_fr" onclick="cambiarModelo()">Familiar(+1500€)<br>
+     </td>
+    </tr>
+    
+    <tr>
+     <td>Color</td>
+     <td><select id="colores" onfocus="colorGuardado()" onchange="cambiarColor()">
+      <option value="0" selected>Rojo</option>
+      <option value="1" >Verde</option>
+      <option value="2">Naranja</option>
+      <option value="3" >Blanco (-500 €)</option>
+      <option value="4">Negro (-600 €)</option>
+     </select>
+      
+     </td>
+    </tr>
+    
+    <tr>
+     <td>Equipamiento</td>
+     <td>
+      <input name="Equipamiento" type="checkbox" id="metalizada" onclick="equipamiento()">      Pintura Metalizada: +750 €, disponible solo para Rojo, verde y naranja.<br/>
+  <input name="Equipamiento" type="checkbox" id="aleacion" onclick="equipamiento()">             Llanta de aleacion:+200 €<br/>
+ <input name="Equipamiento" type="checkbox" id="climatizador" onclick="equipamiento()">          Climatizador: +800 €<br/> 
+<input name="Equipamiento" type="checkbox" id="gps" onclick="equipamiento()">                    GPS:+340€</br>
+      <input name="Equipamiento" type="checkbox" id="onconnet" onclick="equipamiento()">         Sistema On-Conneted:+800 €(solo para modelo familiar)</br>
+     </td>
+    </tr>
+    
+    <tr>
+     <td>Precio final</td>
+     <td><b><div id="precio_final">xxx €</div></b></td>
+    </tr>
+   </table>
+  </form>
+  
+<br><br><h2><a href="../index.html">[Back]</a><h2>
+ </body>
+ </html>
