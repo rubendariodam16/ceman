@@ -1,0 +1,27 @@
+body{
+ background-color:greenyellow;
+ background-image: url("images.jpg");
+ text-align:center;
+}
+head{
+ color:white;
+}
+a:link{
+ color:ORANGE;
+}
+a:hover{
+ color:white;
+}
+article{
+	margin-right:25%;
+ border: 5px solid MAGENTA;
+ border-radius:10px;
+ display: inline-block;
+ width: 50%
+}
+h1{
+ color:white;
+}
+p{
+	color:tan;
+}

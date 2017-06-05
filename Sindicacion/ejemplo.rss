@@ -21,7 +21,21 @@
 			<title>El Tiempo</title>
 			<link>https://www.eltiempo.es/santa-cruz-de-tenerife.html</link>
 			<guid>https://www.eltiempo.es/santa-cruz-de-tenerife.html</guid>
-			<description>Las noticias mas importantes de sur de colombia</description>
+			<description>Noticia del cambio  del clima durante el dia  en la capital de la provincia</description>
+		</item>
+		
+		<item>
+		<title>Noticia Propia</title>
+		<link>https://rubendariodam16.github.io/ceman/noticia.html</link>	
+		<guid>https://rubendariodam16.github.io/ceman/noticia.html</guid>
+		<description>Esta  es  una noticia creada como  articulo propio para este ejercicio</description>
+		</item>
+		
+		<item>
+		<title>Agenda Cultural de Canarias</title>
+		<link>http://gobiernodecanarias.org/cultura/agendacultural/</link>
+		<guid>http://gobiernodecanarias.org/cultura/agendacultural/</guid>
+		<description>Este  es un articulo dedicado por parte del gobierno de canarias a la cultura</description>
 		</item>
 	</channel>
 </rss>

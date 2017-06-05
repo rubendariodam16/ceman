@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+
+ <head>
+ <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+  <title>Dado</title>
+  
+  <link rel="stylesheet" type="text/css" href="dado.css"/>
+ 
+ </head>
+ 
+ <body>
+  <h1>LANZAR UN DADO</h1>
+  
+  <script type="text/javascript">
+  
+   var face0=new image()
+   face0.src="dado1.png"
+   
+   var face1=new image()
+   face1.src="dado2.png"
+   
+   var face2=new image()
+   face2.src="dado3.png"
+   
+   var face3=new image()
+   face3.src="dado4.png"
+   
+   
+   var face4=new image()
+   face4.src="dado5.png"
+   
+   var face5=new image()
+   face5.src="dado6.png"
+  
+  
+  
+  </script>
+  <form>
+   <input type="button" value="Lanza el dado" onclick="lanzar()"/>
+   <img src=" " name="dado" alt='eres un campeon'/>
+  </form>
+   
+   <script>
+    
+    function lanzar(){
+   
+     document.images["dado"].src=eval("face"+randomdice+.src);
+    }
+ </script>
+  <br><h2><a href="../index.html">[Back]</a></h2>
+ </body>
+</html>
+
+   
+   
+   

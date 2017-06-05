@@ -1,0 +1,28 @@
+body{
+	background-position: border:23px;
+ margin-left: 55px; margin-right: 230px; margin-top: 50px;
+ 
+}
+
+.calculadora {
+	border: 10px blueridge; width: 250px; text-aling: center;
+		background-color:grey;
+
+}
+
+	# textoPantalla {	height: 50px; border: 2px; black solid: text-aling: right;
+			position: relative; center: 13px; padding 0px 10px;
+			background-color: blue; font- family:"courrier new";
+			font-size: 24px; overflow:hidden;
+	}
+	.calculadora [type=buttom]{
+			width: 45px; height:  45px;
+             font-size:20px;
+             padding 20px;
+	}
+	.calculadora input.largo {color:red; width: 60px;
+	}
+h1{
+ color:orange;
+  
+}
